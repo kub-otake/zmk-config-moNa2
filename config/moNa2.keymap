@@ -60,9 +60,9 @@
 
         layer_1 {
             bindings = <
-&kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS                     &kp KP_MULTIPLY  &kp F1  &kp F2   &kp F3   &kp F4
-&kp CAPSLOCK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS            &trans  &kp SLASH        &kp F5  &kp F6   &kp F7   &kp F8
-&kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL  &trans    &trans  &kp PERCENT      &kp F9  &kp F10  &kp F11  &kp F12
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS                     &kp KP_MULTIPLY  &kp F1  &kp F2   &kp F3   &kp F4
+&kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS            &trans  &kp SLASH        &kp F5  &kp F6   &kp F7   &kp F8
+&kp CAPSLOCK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL  &trans    &trans  &kp PERCENT      &kp F9  &kp F10  &kp F11  &kp F12
 &trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans                                     &trans
             >;
 
@@ -95,7 +95,7 @@
             bindings = <
 &trans     &kp LC(LA(V))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &trans                     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans
 &kp LG(A)  &kp LG(X)      &kp LG(C)             &kp LG(V)             &kp END            &trans  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW      &trans
-&kp LC(A)  &kp LC(X)      &kp LC(C)             &kp LC(V)             &trans   &trans    &trans  &trans              &trans              &trans            &trans               &trans
+&trans     &trans         &kp LG(Z)             &kp LG(Y)             &trans   &trans    &trans  &trans              &trans              &trans            &trans               &trans
 &trans     &trans         &trans                &trans                &trans   &trans    &trans  &trans                                                                         &trans
             >;
 
